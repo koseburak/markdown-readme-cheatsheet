@@ -17,7 +17,7 @@ sequenceDiagram
 ```
 
 ### Output:
-::: mermaid
+``` mermaid
 sequenceDiagram
     Alice ->> Bob: Hello Bob, how are you?
     Bob-->>John: How about you John?
@@ -27,7 +27,7 @@ sequenceDiagram
 
     Bob-->Alice: Checking with John...
     Alice->John: Yes... John, how are you?
-:::
+```
 
 
 ## Loops, alt and opt Example
@@ -50,7 +50,7 @@ sequenceDiagram
 ```
 
 ### Output:
-::: mermaid
+``` mermaid
 sequenceDiagram
     loop Daily query
         Alice->>Bob: Hello Bob, how are you?
@@ -64,7 +64,7 @@ sequenceDiagram
             Bob->>Alice: Thanks for asking
         end
     end
-:::
+```
 
 
 ## Message to self in loop Example
@@ -85,7 +85,7 @@ sequenceDiagram
 ```
 
 ### Output:
-:::mermaid
+```mermaid
 sequenceDiagram
     participant Alice
     participant Bob
@@ -97,7 +97,7 @@ sequenceDiagram
     John-->>Alice: Great!
     John->>Bob: How about you?
     Bob-->>John: Jolly good!
-:::
+```
 
 
 ## Blogging app service communication Example
@@ -135,7 +135,7 @@ sequenceDiagram
 ```
 
 ### Output:
-:::mermaid
+```mermaid
 sequenceDiagram
     participant web as Web Browser
     participant blog as Blog Service
@@ -164,7 +164,7 @@ sequenceDiagram
             blog-->>-web: Successfully posted
         end
     end
-:::
+```
 
 
 ## A commit flow diagram Example
@@ -187,7 +187,7 @@ gitGraph:
 ```
 
 ### Output:
-:::mermaid
+```mermaid
 gitGraph:
     commit "Ashish"
     branch newbranch
@@ -201,5 +201,5 @@ gitGraph:
     commit
     branch feat/task-1
     commit
-:::
+```
 

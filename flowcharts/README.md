@@ -13,13 +13,13 @@ graph LR
 ```
 
 ### Output:
-:::mermaid
+```mermaid
 graph LR
     A[Square Rect] -- Link text --> B((Circle))
     A --> C(Round Rect)
     B --> D{Rhombus}
     C --> D
-:::
+```
 
 
 ## Advanced Flowchart Example
@@ -50,7 +50,7 @@ graph TB
 ```
 
 ### Output
-::: mermaid
+``` mermaid
 graph TB
     sq[Square shape] --> ci((Circle shape))
 
@@ -72,4 +72,4 @@ graph TB
      classDef orange fill:#f96,stroke:#333,stroke-width:4px;
      class sq,e green
      class di orange
-:::
+```
